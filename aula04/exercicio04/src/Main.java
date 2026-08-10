@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Transferencia realizada com sucesso!");
         }else{
             System.out.println("O zumbi " + zumbi1.nome + " irá morrer se transferir essa quantidade de vida!");
-            System.out.println("Transferencia cancelada!");
+            System.out.println("Transferencia cancelada!!");
         }
 
         zumbi1.mostrarVida();
