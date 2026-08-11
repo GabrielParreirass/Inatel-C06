@@ -3,8 +3,6 @@ public class Main {
     Zumbi zumbi1 = new Zumbi();
     Zumbi zumbi2 = new Zumbi();
 
-
-
     public void main(){
 
         zumbi1.nome = "Zumbi1";

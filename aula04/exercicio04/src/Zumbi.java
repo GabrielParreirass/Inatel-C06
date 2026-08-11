@@ -16,9 +16,5 @@ public class Zumbi {
             this.vida  = vida - quantia;
             statusTransferencia = true;
         }
-
-
     }
-
-
 }
