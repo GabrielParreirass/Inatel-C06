@@ -5,8 +5,6 @@ public class Main {
 
     Bomba[][] campoMinado = new Bomba[2][2];
 
-
-
     public void main(){
 
         Random rand = new Random();
