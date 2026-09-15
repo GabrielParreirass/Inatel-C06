@@ -7,5 +7,9 @@ public class BrownieNutella extends Brownie {
         System.out.println("Adicionando nutella...");
     }
 
+    @Override
+    public void addCarrinhoDeCompras() {
+        System.out.println("Carrinho de compras - Brownie Nutella");
 
+    }
 }

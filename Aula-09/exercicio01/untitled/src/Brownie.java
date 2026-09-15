@@ -11,6 +11,7 @@ public class Brownie {
     }
 
     public void addCarrinhoDeCompras(){
+        System.out.println("Teste");
 
     }
 

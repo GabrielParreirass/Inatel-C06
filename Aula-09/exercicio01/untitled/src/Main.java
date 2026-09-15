@@ -4,6 +4,8 @@ public class Main {
     BrownieNutella bwNutella = new BrownieNutella("Brownie Nutella", 60, "Nutella");
     BrownieDoceDeLeite bwDoceDeLeite = new BrownieDoceDeLeite("Brownie Doce de Leite", 70, "Doce de leite");
 
+    Comprador comprador = new Comprador("Gabirel", 100);
+
     public void main(){
 
         bwCafe.mostraInfo();
@@ -13,5 +15,9 @@ public class Main {
         bwCafe.calculaValorTotalCompra();
         bwNutella.calculaValorTotalCompra();
         bwDoceDeLeite.calculaValorTotalCompra();
+        System.out.println(" --- ");
+        bwNutella.addCarrinhoDeCompras();
+        bwCafe.addCarrinhoDeCompras();
+        comprador.efetuarCompraBrownie(bwNutella);
     }
 }
